@@ -1,0 +1,35 @@
+/* Wrapper Styling */
+
+#wrapper {
+  background-image: url("img/bcg.jpg");
+  min-height: 1000px;
+}
+/* Nav Bar Styling */
+
+.topNav {
+  border-bottom: solid 2px;
+  padding-bottom: 1rem;
+}
+
+#textBar {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+}
+
+.subButton {
+  width: 100%;
+  border-radius: 5%;
+  color: white;
+}
+
+/* Main Body Styling */
+
+.headDiv {
+  text-align: center;
+}
+
+.headTitle {
+  font-family: 'Audiowide', cursive;
+  letter-spacing: .2em;
+}

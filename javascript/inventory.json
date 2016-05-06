@@ -1,0 +1,31 @@
+{
+  "cars": [
+    {
+      "make": "Aston-Martin",
+      "model": "DB5 Vantage",
+      "year": "1964",
+      "price": "15000000",
+      "color": "Silver",
+      "purchased": false,
+      "description": "."
+    },
+    {
+      "make": "Ford",
+      "model": "Roush SVT Raptor",
+      "year": "2014",
+      "price": "65000",
+      "color": "White",
+      "purchased": false,
+      "description": "."
+    },
+    {
+      "make": "Ferrari",
+      "model": "488 GTB",
+      "year": "2016",
+      "price": "250000",
+      "color": "Racing Red",
+      "purchased": false,
+      "description": "."
+    }
+  ]
+}
