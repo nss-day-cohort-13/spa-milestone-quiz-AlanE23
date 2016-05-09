@@ -5,27 +5,27 @@
       "model": "DB5 Vantage",
       "year": "1964",
       "price": "15000000",
-      "color": "Silver",
+      "color": "silver",
       "purchased": false,
-      "description": "."
+      "description": "The ultimate in class and style."
     },
     {
       "make": "Ford",
       "model": "Roush SVT Raptor",
       "year": "2014",
       "price": "65000",
-      "color": "White",
+      "color": "white",
       "purchased": false,
-      "description": "."
+      "description": "Perfect for the off-road enthusiast."
     },
     {
       "make": "Ferrari",
       "model": "488 GTB",
       "year": "2016",
       "price": "250000",
-      "color": "Racing Red",
+      "color": "red",
       "purchased": false,
-      "description": "."
+      "description": "The new flagship of the Ferrari brand."
     }
   ]
 }
