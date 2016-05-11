@@ -2,6 +2,7 @@
 
 #wrapper {
   background-image: url("img/bcg.jpg");
+  background-position: center;
   min-height: 1000px;
 }
 /* Nav Bar Styling */
@@ -37,4 +38,29 @@
 .headTitle {
   font-family: 'Audiowide', cursive;
   letter-spacing: .2em;
+}
+
+/* Card Styling */
+
+.card {
+  display: inline-block;
+  width: 31%;
+  margin: 0 1em;
+  padding: 0;
+}
+
+.picDiv {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.cardText {
+  background: rgba(248, 248, 255, 0.8);
+}
+
+.about {
+  margin: 0;
 }

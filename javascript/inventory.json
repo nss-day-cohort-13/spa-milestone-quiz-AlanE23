@@ -1,6 +1,7 @@
 {
   "cars": [
     {
+      "image": "img/db5.jpg",
       "make": "Aston-Martin",
       "model": "DB5 Vantage",
       "year": "1964",
@@ -10,6 +11,7 @@
       "description": "The ultimate in class and style."
     },
     {
+      "image": "img/roushRaptor.png",
       "make": "Ford",
       "model": "Roush SVT Raptor",
       "year": "2014",
@@ -19,6 +21,7 @@
       "description": "Perfect for the off-road enthusiast."
     },
     {
+      "image": "img/ferrari488GTB.jpg",
       "make": "Ferrari",
       "model": "488 GTB",
       "year": "2016",
