@@ -47,6 +47,7 @@
   width: 31%;
   margin: 0 1em;
   padding: 0;
+  background: rgba(248, 248, 255, 0.8);
 }
 
 .picDiv {
@@ -57,10 +58,27 @@ img {
   width: 100%;
 }
 
-.cardText {
-  background: rgba(248, 248, 255, 0.8);
-}
-
 .about {
   margin: 0;
 }
+
+/* Style changes toggled upon click event */
+
+.card-changes {
+  border: yellow solid 3px;
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -21,7 +21,7 @@ var CarLot = (function (xhr) {
     inventoryLoader.send();
   }
 
-return xhr
+return xhr;
 
 
 }(CarLot || {}));
