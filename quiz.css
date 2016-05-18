@@ -7,10 +7,6 @@
 }
 /* Nav Bar Styling */
 
-.topNav {
-
-}
-
 #textBar {
   width: 100%;
   background-color: transparent;
@@ -48,6 +44,7 @@
   margin: 0 1em;
   padding: 0;
   background: rgba(248, 248, 255, 0.8);
+  border: solid 1.5px;
 }
 
 .picDiv {
@@ -62,10 +59,15 @@ img {
   margin: 0;
 }
 
+p {
+  margin: 0;
+  padding: 3px 0;
+}
+
 /* Style changes toggled upon click event */
 
-.card-changes {
-  border: yellow solid 3px;
+.changes {
+  border: yellow solid 5px !important;
   background: white;
 }
 

@@ -1,7 +1,6 @@
 var CarLot = (function (xhr) {
 
   var inventory = [];
-  var carID = 0;
 
   function getInventory () {
     var carList = JSON.parse(this.responseText);
