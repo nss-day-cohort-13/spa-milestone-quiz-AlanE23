@@ -9,17 +9,16 @@ function populatePage (inventory) {
   for (i = 0; i < inventory.length; i++) {
     console.log("inventory", inventory);
 
-    looper += "<div class='card col-xs-4' style='border-color:" + inventory[i].color + "'>" +
+    looper += "<div id='vehicle"+ [i] +"' class='card col-xs-4 autoM' style='border-color:" + inventory[i].color + "'>" +
                          "<div class='picDiv'>" +
                          "<img src='" + inventory[i].image + "'>" +
                          "</div>" +
                          "<div class='cardText'>" +
-                         "<p>" + "-Make: " + inventory[i].make + "</p>" +
-                         "<p>" + "-Model : " + inventory[i].model + "</p>" +
-                         "<p>" + "-Year : " + inventory[i].year + "</p>" +
-                         "<p>" + "-Price : " + inventory[i].price + "</p>" +
-                         "<p>" + "-Color : " + inventory[i].color + "</p>" +
-                         "<p class='about'>" + "-About : " + inventory[i].description + "</p>" +
+                         "<h2 class='cardHead'>" + inventory[i].make + " " + inventory[i].model + "</h2>" +
+                         "<p>" + "Year : " + inventory[i].year + "</p>" +
+                         "<p>" + "Price : $" + inventory[i].price + "</p>" +
+                         "<p>" + "Color : " + inventory[i].color + "</p>" +
+                         "<p class='about'>" + "About : " + inventory[i].description + "</p>" +
                          "</div>" +
                          "</div>";
   }
@@ -63,7 +62,3 @@ cardClick.addEventListener("click", function(clickEvent) {
 // Load the inventory and send a callback function to be invoked after the process is complete
 
 CarLot.loadInventory();
-
-
-// div is an object reference to a <div> element with class="foo bar"
-// div.classList.remove("foo");

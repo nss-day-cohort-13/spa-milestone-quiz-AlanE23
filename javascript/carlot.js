@@ -22,5 +22,4 @@ var CarLot = (function (xhr) {
 
 return xhr;
 
-
 }(CarLot || {}));

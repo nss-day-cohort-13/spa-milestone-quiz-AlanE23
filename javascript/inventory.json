@@ -6,7 +6,7 @@
       "model": "DB5 Vantage",
       "year": "1964",
       "price": "15000000",
-      "color": "silver",
+      "color": "Silver",
       "purchased": false,
       "description": "The ultimate in class and style."
     },
@@ -16,7 +16,7 @@
       "model": "Roush SVT Raptor",
       "year": "2014",
       "price": "65000",
-      "color": "white",
+      "color": "White",
       "purchased": false,
       "description": "Perfect for the off-road enthusiast."
     },
@@ -26,7 +26,7 @@
       "model": "488 GTB",
       "year": "2016",
       "price": "250000",
-      "color": "red",
+      "color": "Red",
       "purchased": false,
       "description": "The new flagship of the Ferrari brand."
     }

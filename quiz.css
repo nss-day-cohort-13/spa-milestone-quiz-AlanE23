@@ -4,6 +4,7 @@
   background-image: url("img/bcg.jpg");
   background-position: center;
   min-height: 1000px;
+  font-family: 'Audiowide', cursive;
 }
 /* Nav Bar Styling */
 
@@ -25,15 +26,13 @@
   font-weight: bold;
 }
 
-/* Main Body Styling */
-
 .headDiv {
   text-align: center;
 }
 
 .headTitle {
-  font-family: 'Audiowide', cursive;
   letter-spacing: .2em;
+  margin: 1em 0;
 }
 
 /* Card Styling */
@@ -64,6 +63,15 @@ p {
   padding: 3px 0;
 }
 
+.cardHead {
+  text-align: center;
+  margin: 0;
+  padding: .8em;
+}
+
+.autoM {
+
+}
 /* Style changes toggled upon click event */
 
 .changes {
